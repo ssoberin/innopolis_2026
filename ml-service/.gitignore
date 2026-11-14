@@ -5,3 +5,6 @@ __pycache__/
 .env
 *.joblib
 *.parquet
+data/
+models/
+results/
