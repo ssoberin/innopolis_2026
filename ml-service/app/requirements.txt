@@ -1,0 +1,11 @@
+# Install in the persistent /srv/Hakaton/.venv (outside app/).
+# Model artifact was retrained with scikit-learn 1.9.1 on the user's server.
+scikit-learn==1.9.1
+numpy>=1.26,<3
+scipy>=1.11,<2
+joblib>=1.3,<2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+httpx>=0.27,<1
+pydantic>=2,<3
+pytest>=8,<10
